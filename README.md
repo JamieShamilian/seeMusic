@@ -1,6 +1,6 @@
 # seeMusic
 
-runs an rasberryPi
+runs on rasberryPi
 
 needed modules 
 
