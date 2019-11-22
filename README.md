@@ -2,6 +2,8 @@
 
 **runs on rasberryPi using GPIO to drive LEDs**
 
+![Demo Pic](https://github.com/JamieShamilian/seeMusic/blob/master/SeeMusicDemo.jpg)
+
 **needed modules**
 
   - python-qt4 
