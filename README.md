@@ -2,7 +2,7 @@
 
 **runs on rasberryPi using GPIO to drive LEDs**
 
-![Demo Pic](https://github.com/JamieShamilian/seeMusic/blob/master/SeeMusicDemo.jpg)
+![Demo Pic](https://github.com/JamieShamilian/seeMusic/blob/master/SeeMusicDemoCrop.jpg)
 
 **needed modules**
 
