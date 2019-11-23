@@ -1,6 +1,6 @@
 # seeMusic
 
-**runs on rasberryPi using GPIO to drive LEDs**
+**runs on rasberryPi using GPIO to drive LEDs and USB microphone**
 
 ![Demo Pic](https://github.com/JamieShamilian/seeMusic/blob/master/SeeMusicDemoCrop.jpg)
 
