@@ -6,10 +6,10 @@
 
 **needed modules**
 
-  - python-qt4 
-  - pyqtgraph 
-  - pyaudio 
-  - numpy
+  - python-qt4 ( sudo apt-get install pyhton-qt4 )
+  - pyqtgraph ( pip install pyqtgraph )
+  - pyaudio ( sudo apt-get install python-pyaudio )
+  - numpy ( pip install numpy )
 
 **to run the program:**
 
