@@ -135,9 +135,9 @@ class microInLED():
         max1 = 160000
         max2 = 80000
         max3 = 40000        
-        max4 = 30000
-        max5 = 2000
-        max6 = 1000        
+        max4 = 10000
+        max5 = 200
+        max6 = 100        
         b1 =  500
         b2 = 1000
         b3 = 1500
