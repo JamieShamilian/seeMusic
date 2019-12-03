@@ -1,0 +1,40 @@
+Design weekly reports.
+
+Find rasberrypi on amazon
+
+received rasberrypi and SD card
+
+boot linux on rasberrypi
+connected to USB mouse keyboard hdmi screen
+
+update linux with emacs and other tools
+
+ran sample python code on rasberry pi
+
+developed idea to help hard of hearing enjoy music
+by syncornozing LED lights
+
+found the jinglebells python project.
+
+created a breadboard LED connected to GPIO pins
+
+ran jinglebells python program to make leds light at
+rate similar to jinglebells on rasberrypi/breadboard LED
+
+attach USB microphone input 
+read microphone input to python script
+
+use numPy to preform FFT on raw data.
+
+use frequency response and amplitude data returned by FFT function
+to light the LEDs.
+
+tested ran the sample music files using vlc.
+( problems with feedback )
+
+ran music files using phone.
+works better, but cant take video at the same time ?
+
+need to tweak the amplitude at different frequencies to make LEDs work correctly.
+( may need to use log scale based on frequency band )
+
