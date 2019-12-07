@@ -12,18 +12,16 @@
   - numpy ( pip install numpy )
 
 **to run the program: with qt UI**
-
-   python qtSeeMusic.py
-   
    
 ```sh
 python qtSeeMusic.py
 ```
 
-
 **to run the program: with no UI**
 
-   python microInLED.py
+```sh
+python microInLED.py
+```
 
 Details of the project
 
