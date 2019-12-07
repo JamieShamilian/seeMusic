@@ -136,8 +136,8 @@ class microInLED():
         max2 = 80000
         max3 = 40000        
         max4 = 10000
-        max5 = 200
-        max6 = 100        
+        max5 = 2000
+        max6 = 1000        
         b1 =  500
         b2 = 1000
         b3 = 1500
@@ -173,13 +173,13 @@ class microInLED():
             if ( i == b4 ) :
                 GPIO.output(blue2LightsPin, GPIO.HIGH) # off    
             if ( i > b4 and i < b5 ) :
-                if self.fft[i] > max2:
+                if self.fft[i] > max5:
                     GPIO.output(blue2LightsPin, GPIO.LOW) # on
 
             if ( i == b5 ) :
                 GPIO.output(green2LightsPin, GPIO.HIGH) # off    
             if ( i > b5 and i < b6 ) :
-                if self.fft[i] > max3:
+                if self.fft[i] > max6:
                     GPIO.output(green2LightsPin, GPIO.LOW) # on
             
         if self.keepRecording:
