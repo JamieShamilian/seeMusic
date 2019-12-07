@@ -214,7 +214,8 @@ if __name__=="__main__":
     while True:
         while lastRead==ear.chunksRead:
             time.sleep(.01)
-        print(ear.chunksRead,len(ear.data))
+        # debug no UI
+        #print(ear.chunksRead,len(ear.data))
         lastRead=ear.chunksRead
     GPIO.output(redLightsPin, GPIO.HIGH) # off
     GPIO.output(blueLightsPin, GPIO.HIGH) # off
