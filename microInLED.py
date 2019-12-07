@@ -206,8 +206,9 @@ class microInLED():
                       rate=self.rate,input=True,frames_per_buffer=self.chunk)
         self.stream_thread_new()
 
+        #main no UI
 if __name__=="__main__":
-    ear=SWHear(updatesPerSecond=10) # optinoally set sample rate here
+    ear=microInLED(updatesPerSecond=10) # optinoally set sample rate here
     ear.stream_start() #goes forever
     lastRead=ear.chunksRead
     while True:
