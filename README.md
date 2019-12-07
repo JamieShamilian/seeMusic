@@ -11,13 +11,14 @@
   - pyaudio ( sudo apt-get install python-pyaudio )
   - numpy ( pip install numpy )
 
-**to run the program:**
+**to run the program: with qt UI**
 
    python qtSeeMusic.py
 
 
+**to run the program: with no UI**
 
-
+   python microInLED.py
 
 Details of the project
 
