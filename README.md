@@ -14,6 +14,11 @@
 **to run the program: with qt UI**
 
    python qtSeeMusic.py
+   
+   
+```sh
+python qtSeeMusic.py
+```
 
 
 **to run the program: with no UI**
